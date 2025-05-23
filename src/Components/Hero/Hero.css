@@ -1,3 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 .hero {
     padding: 60px 0;
     background: linear-gradient(180deg, #cef8ff, #e1ffea22 60%);
@@ -167,3 +177,26 @@
     font-size: 14px;
 }
 }
+
+@media(max-width:375px) {
+  .hero-left {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .hero-left p {
+    font-size: 40px;
+}
+
+  .hero {
+    padding: 0;
+  }
+
+  .hero-latest-btn {
+    width: 90%;
+    max-width: 280px;
+    margin: 5px;
+  }
+}
+

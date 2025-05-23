@@ -96,3 +96,21 @@
     }
 }
 
+@media (max-width: 375px) {
+  .item {
+    width: 90%;         /* Make it take most of the screen width */
+    max-width: 300px;   /* Optional: limit how large it can grow */
+    margin: 0 auto;     /* Center the item horizontally */
+    text-align: center; /* Center text or inner elements if needed */
+  }
+
+  .item img {
+    width: 100%;        /* Image fills the item */
+    height: auto;       /* Maintain aspect ratio */
+    display: block;     /* Removes bottom whitespace */
+    margin: 0 auto;     /* Center the image horizontally */
+  }
+}
+
+
+

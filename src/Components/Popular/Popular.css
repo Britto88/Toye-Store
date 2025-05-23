@@ -90,3 +90,16 @@
         gap: 20px;
     }
 }
+
+@media (max-width:375px) {
+    .popular {
+        height: 90vh;
+    }
+    .popular-item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
+
+
